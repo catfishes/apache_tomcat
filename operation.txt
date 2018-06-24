@@ -1,0 +1,8 @@
+exmaple:https://blog.csdn.net/loguat/article/details/72471275
+1，github上新增资讯库，复制资源库地址；
+2，本地机器安装git。
+3，找到本地资源文件夹，右键Git Gui Here或Git Bash Here。弹窗操作窗口
+4，输入git命令下载资源 git clone 资源库地址。本地文件夹纳入git管理（会要求输入github账号密码）
+5，打开本地文件夹，git add . 将文件纳入版本控制（本机版本库）
+6，git commit -m "注释" 将文件提交到本地版本控制库中
+7，git push -u origin master 提交到GitHub资源库中，（要求数据GitHub账号密码）
